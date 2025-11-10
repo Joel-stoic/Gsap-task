@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "./styles/fonts.css";
+@import url("https://fonts.cdnfonts.com/css/pp-neue-montreal");
+
+:root{
+  --headline-size: clamp(4.5rem, 7.8vw, 9.5rem); /* tune this once */
+}
+html, body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "PP Neue Montreal", system-ui, sans-serif;
+}
